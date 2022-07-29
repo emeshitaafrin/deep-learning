@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Deep - Learning</title>
   <link href="./assets/css/style.css" rel="stylesheet">
 
@@ -31,7 +33,41 @@
           <li class="nav-item"> <a class="nav-link" href="#">Register</a> </li>
         </ul>
         <div class="nav-btn">
-          <button class="btn btn-primary ms-5">Register</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary bg-light text-info rounded ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register Now
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header px-5">
+                    <h5 class="modal-title" id="exampleModalLabel">Please Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="p-4">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">First Name</label>
+                        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <button type="submit" class="btn btn-primary px-4 py-2 mt-4">Register</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -223,7 +259,35 @@
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
           <div class="register-btn text-end">
-            <a href="#" class="btn btn-primary py-3 px-5 bg-light text-info">Register Now</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary bg-light text-info rounded py-2 px-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Register Now
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Please Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -359,7 +423,7 @@
 <!-- Frequently Asked Questions area end -->
 
 <!-- client area start -->
-<section class="client-area pb-5 pt-5">
+<section class="client-area pb-5 pt-5 d-none d-lg-block">
   <div class="container">
     <div class="row">
       <h2 >Trusted by over 800+ companies</h2>
@@ -378,6 +442,21 @@
   </div>
   </section>
 <!-- client area end -->
+
+<!-- Footer area Start -->
+<footer class="footer-area">
+  <h2>Deep Learning</h2>
+  <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>
+    Sultanate of Oman</p>
+  <p>Privacy Ploicy | Terms of use</p>
+  <div class="social-icons text-center">
+    <a href="#" class="icon facebook"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#" class="icon twitter"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#" class="icon linkedin"><i class="fa-brands fa-linkedin-in"></i></i></a>
+    <a href="#" class="icon tiktok"><i class="fa-brands fa-tiktok"></i></a>
+  </div>
+</footer>
+<!-- Footer area end -->
 
 
 
