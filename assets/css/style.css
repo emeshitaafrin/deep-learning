@@ -139,6 +139,40 @@ url(../images/banner-2.jpg);
 }
 /* Intitute Area Style End */
 
+/* Team-area  style start */
+.team-area .section-title h2 {
+    text-align: left;
+}
+.team-area .item-box {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.team-area .item-box:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.team-area .item-box .item-info h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+.team-area .item-box .item-info{
+    padding: 20px;
+}
+.team-area .item-box .item-info span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+/* Team-area  style start */
+
+/* faq area  style start */
+.faq-area 
+/* faq area  style end */
+
+
 
 
 
@@ -179,3 +213,4 @@ url(../images/banner-2.jpg);
     }
 
 }
+
