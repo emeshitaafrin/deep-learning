@@ -46,7 +46,7 @@ url(../images/banner-2.jpg);
     position: relative;
 }
 .banner-area .carousel-item .slide-caption {
-    width: 671px;
+    /* width: 671px; */
     margin: 0 auto;
     position: absolute;
     top: 50%;
@@ -122,6 +122,21 @@ url(../images/banner-2.jpg);
     line-height: 30px;
     color: #777777;
 }
+.institute-area .register-area {
+    padding: 80px 100px;
+}
+.institute-area .register-area .register-info h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.institute-area .register-area .register-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
 /* Intitute Area Style End */
 
 
@@ -150,4 +165,17 @@ url(../images/banner-2.jpg);
     .popular-courses .item-box .img-box img {
         width: 100%;
     } 
+    .institute-area .register-area {
+        padding: 40px 20px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 991.98px) {
+    .institute-area .register-area .register-btn {
+        text-align: left !important;
+    }
+
 }
