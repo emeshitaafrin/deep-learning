@@ -1,0 +1,58 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Saira+Stencil+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Saira Stencil One', cursive; */
+    
+}
+.header-area .site-logo{
+    font-family: 'Saira Stencil One', cursive;
+    text-transform: uppercase;
+}
+
+.banner-area .carousel-item {
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 80vh;
+padding: 50px 0;
+}
+
+
+.banner-area .slide-item-1 {
+    background: linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)), 
+    url(../images/banner-1.jpg);
+}
+.banner-area .slide-item-2 {
+    background: linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)), 
+url(../images/banner-2.jpg);
+}
+.banner-area .slide-item-3 {
+    background: linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)), 
+    url(../images/banner-3.jpg);
+}
+
+.banner-area .carousel-item .slide-caption {
+    max-width: 671px;
+    margin: 0 auto;
+}
+.banner-area>.carousel-item>.slide-caption h1 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 85px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banner-area>.carousel-item>.slide-caption p.banner-description {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #F4F4F4;
+ }
