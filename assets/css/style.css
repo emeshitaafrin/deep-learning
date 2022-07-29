@@ -11,11 +11,16 @@ body {
     /* font-family: 'Saira Stencil One', cursive; */
     
 }
+
+/* Header Area Style Start*/
 .header-area .site-logo{
     font-family: 'Saira Stencil One', cursive;
     text-transform: uppercase;
+    font-size: 24px;
 }
+/* Header Area Style End */
 
+/* Banner Area Style Start */
 .banner-area .carousel-item {
 background-repeat: no-repeat;
 background-size: cover;
@@ -23,7 +28,6 @@ background-position: center;
 height: 80vh;
 padding: 50px 0;
 }
-
 
 .banner-area .slide-item-1 {
     background: linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)), 
@@ -38,9 +42,16 @@ url(../images/banner-2.jpg);
     url(../images/banner-3.jpg);
 }
 
+.banner-area .carousel-item {
+    position: relative;
+}
 .banner-area .carousel-item .slide-caption {
-    max-width: 671px;
+    width: 671px;
     margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .banner-area>.carousel-item>.slide-caption h1 {
     font-weight: 600;
@@ -56,3 +67,72 @@ url(../images/banner-2.jpg);
     text-align: center;
     color: #F4F4F4;
  }
+/* Banner Area Style End */
+
+/* Populer Courses Area Style Start */
+.popular-courses .section-title {
+    max-width: 610px;
+    
+} 
+.popular-courses .section-title h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+} 
+
+.popular-courses .item-box .item-info h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 28px;
+    color: #4A4A4A;
+    margin-bottom: 10px;
+} 
+.popular-courses .item-box .item-info p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #777777;
+    margin-bottom: 10px;
+} 
+.popular-courses .item-box .item-info span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #289BDE;
+} 
+
+
+/* Populer Courses Area Style End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 575.98px) {
+    .popular-courses .item-box {
+        flex-direction: column;
+    } 
+    .popular-courses .item-box .img-box,
+    .popular-courses .item-box .img-box img {
+        width: 100%;
+    } 
+}
