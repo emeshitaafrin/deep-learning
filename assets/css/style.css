@@ -169,7 +169,20 @@ url(../images/banner-2.jpg);
 /* Team-area  style start */
 
 /* faq area  style start */
-.faq-area {}
+.faq-area .section-title h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+.faq-area .section-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+}
 /* faq area  style end */
 
 /* client area  style start */
